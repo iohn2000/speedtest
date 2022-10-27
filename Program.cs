@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using SpeedTest;
+
 Console.WriteLine("Hello, World!");
+SpeedTestRunner runner = new();
+runner.StartTest();
